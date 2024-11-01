@@ -5,12 +5,14 @@
     <meta name="keywords" content="Скряга, Лабораторна, HTML">
     <meta name="description" content="Лабораторна робота 1 Скряга Н.О.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
     <title>Скряга Н.О., Група ІК-21</title>
 </head>
 <body>
 
     <h2>Скряга Нікіта Олександрович</h2>
-    <p>Дата народження: 6 березня 2005 року. Місце народження: Скадовськ, Україна.</p>
+    <p id="target-element">Дата народження: 6 березня 2005 року. Місце народження: Скадовськ, Україна.</p>
     <p>Освіта: Школа №1, м. Скадовськ. Університет: КПІ, спеціальність - 126.</p>
     <h3>Моє хобі</h3>
     <ul>
@@ -27,7 +29,14 @@
     <h3>Місто, що мені сподобалося</h3>
     <p>Мені дуже сподобався Гамбург. місто Гамбург — несуверенне місто-держава і одночасно федеральна земля Німеччини.</p>
     <a href="https://www.hamburg.de/" target="_blank">
-    <img src="https://tripmydream.cc/travelhub/travel/block_gallery/10/6682/gallery_big_106682.jpg" >
+    <img src="https://tripmydream.cc/travelhub/travel/block_gallery/10/6682/gallery_big_106682.jpg" id="target-image" >
     </a>
+    <div class="buttons">
+        <button id="add-btn">Додати зображення</button>
+        <button id="increase-btn">Збільшити</button>
+        <button id="decrease-btn">Зменшити</button>
+        <button id="remove-btn">Видалити зображення</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
